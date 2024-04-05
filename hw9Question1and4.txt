@@ -1,0 +1,7 @@
+(1) What is SQL? What are relational databases?
+
+SQL stands for Structured Query Language, and it is a standard language used for relational database creation and manipulation. Relational databases are large sets of data stored using tables, rows, columns, fields and keys. These specific storing methods can be called up to locate, present, edit, and share pieces of data. The term “relational” comes from the ability for these databases to identify and access data in relation to another piece of data in the database.
+
+(4) What is a PDO in PHP? Why do we need to use prepared statements?
+
+PDO stands for PHP Data Object. It is a consistent way to access a database through PHP. We use prepared statements in PHP to execute the same statement repeatedly with high efficiency. The prepared statement has two stages: prepare and execute. 
