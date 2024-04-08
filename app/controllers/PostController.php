@@ -50,7 +50,7 @@ class PostController
             //TODO 5-a: get all posts
             $posts = $postModel->getAllPosts();
         }
-
+        echo json_encode($posts);
         exit();
     }
 
@@ -106,6 +106,8 @@ class PostController
         echo json_encode([
             'success' => true
         ]);
+
+
         exit();
     }
 

@@ -1,11 +1,14 @@
 <?php
-
 namespace app\models;
+
+require_once "../app/core/Database.php";
+
 
 use app\core\Database;
 
 class Post
 {
+    use Database; 
     //todo make methods here
     public function getAllPostsById($id)
     {
@@ -38,7 +41,7 @@ class Post
         return $this->queryWithParams($query, $inputData);
     }
 
-    public function deleteUser($inputData)
+    public function deletePost($inputData)
     {
         $query = "delete from posts where id = :id";
         return $this->queryWithParams($query, $inputData);
