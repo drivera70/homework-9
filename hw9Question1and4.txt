@@ -4,4 +4,4 @@ SQL stands for Structured Query Language, and it is a standard language used for
 
 (4) What is a PDO in PHP? Why do we need to use prepared statements?
 
-PDO stands for PHP Data Object. It is a consistent way to access a database through PHP. We use prepared statements in PHP to execute the same statement repeatedly with high efficiency. The prepared statement has two stages: prepare and execute. 
+PDO stands for PHP Data Object. It is a consistent way to access a database through PHP. We use prepared statements in PHP to execute the same statement repeatedly with high efficiency. Prepared statements also protect against SQL injection hacks, providing some much needed security. The prepared statement has two stages: prepare and execute. 
